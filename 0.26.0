@@ -1,0 +1,34 @@
+Collecting accelerate
+  Obtaining dependency information for accelerate from https://files.pythonhosted.org/packages/0a/f6/791b9d7eb371a2f385da3b7f1769ced72ead7bf09744637ea2985c83d7ee/accelerate-1.4.0-py3-none-any.whl.metadata
+  Downloading accelerate-1.4.0-py3-none-any.whl.metadata (19 kB)
+Requirement already satisfied: numpy<3.0.0,>=1.17 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from accelerate) (1.26.4)
+Requirement already satisfied: packaging>=20.0 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from accelerate) (24.2)
+Collecting psutil (from accelerate)
+  Obtaining dependency information for psutil from https://files.pythonhosted.org/packages/50/1b/6921afe68c74868b4c9fa424dad3be35b095e16687989ebbb50ce4fceb7c/psutil-7.0.0-cp37-abi3-win_amd64.whl.metadata
+  Downloading psutil-7.0.0-cp37-abi3-win_amd64.whl.metadata (23 kB)
+Requirement already satisfied: pyyaml in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from accelerate) (6.0.2)
+Requirement already satisfied: torch>=2.0.0 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from accelerate) (2.6.0)
+Requirement already satisfied: huggingface-hub>=0.21.0 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from accelerate) (0.29.2)
+Requirement already satisfied: safetensors>=0.4.3 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from accelerate) (0.5.3)
+Requirement already satisfied: filelock in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from huggingface-hub>=0.21.0->accelerate) (3.17.0)
+Requirement already satisfied: fsspec>=2023.5.0 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from huggingface-hub>=0.21.0->accelerate) (2025.3.0)
+Requirement already satisfied: requests in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from huggingface-hub>=0.21.0->accelerate) (2.31.0)
+Requirement already satisfied: tqdm>=4.42.1 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from huggingface-hub>=0.21.0->accelerate) (4.67.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from huggingface-hub>=0.21.0->accelerate) (4.12.2)
+Requirement already satisfied: networkx in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from torch>=2.0.0->accelerate) (3.4.2)
+Requirement already satisfied: jinja2 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from torch>=2.0.0->accelerate) (3.1.6)
+Requirement already satisfied: setuptools in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from torch>=2.0.0->accelerate) (75.8.2)
+Requirement already satisfied: sympy==1.13.1 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from torch>=2.0.0->accelerate) (1.13.1)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from sympy==1.13.1->torch>=2.0.0->accelerate) (1.3.0)
+Requirement already satisfied: colorama in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from tqdm>=4.42.1->huggingface-hub>=0.21.0->accelerate) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from jinja2->torch>=2.0.0->accelerate) (3.0.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from requests->huggingface-hub>=0.21.0->accelerate) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from requests->huggingface-hub>=0.21.0->accelerate) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from requests->huggingface-hub>=0.21.0->accelerate) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in k:\ml_project\project_tests\legalbert\venv\lib\site-packages (from requests->huggingface-hub>=0.21.0->accelerate) (2025.1.31)
+Downloading accelerate-1.4.0-py3-none-any.whl (342 kB)
+   ---------------------------------------- 342.1/342.1 kB 5.3 MB/s eta 0:00:00
+Downloading psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+   ---------------------------------------- 244.9/244.9 kB 5.0 MB/s eta 0:00:00
+Installing collected packages: psutil, accelerate
+Successfully installed accelerate-1.4.0 psutil-7.0.0
